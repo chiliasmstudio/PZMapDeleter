@@ -61,7 +61,7 @@ public class main {
                 }
                 //end arg if
             }
-            if (pos1_x > 0 && pos1_y > 0 && pos2_x > 0 && pos2_y > 0 && SavePath != null) {
+            if (pos1_x >= 0 && pos1_y >= 0 && pos2_x >= 0 && pos2_y >= 0 && SavePath != null) {
                 int temp = 0;
                 if (pos1_x > pos2_x) {
                     temp = pos1_x;
